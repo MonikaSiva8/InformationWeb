@@ -1,0 +1,94 @@
+*{
+    background-color: black;
+}
+
+.heading{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: aliceblue;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 1rem 1rem 1rem #000, 2rem 2rem 2rem #111, 3rem 3rem 3rem #222;
+}
+.sectionImage1{
+    position: absolute;
+    bottom:5rem;
+    left: 2rem;
+    
+}
+table,th,tr,th{
+    border: 2px solid;
+}
+table{
+    float: right ;
+    width: 900px;
+    height: 600px;
+    padding: 10px;
+    border-spacing: 1px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+@media screen and (max-width:1000px){
+    .heading{
+        font-size: 1.5rem;
+
+    }   
+    .tab2 table{
+            width: 550px;
+            height: 550px;
+            position: absolute;
+            top:10rem;
+    }
+    .sectionImage1{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        bottom:17rem
+    }
+}
+
+@media screen and (max-width:800px) {
+   
+    .heading{
+        font-size: 1.5rem;
+
+    }   
+    .tab2 table{
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 25rem;
+            margin-left: 2rem;
+    }
+    .sectionImage1{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 5rem;
+        margin-left: 1.5rem;
+        padding-bottom: 15rem;
+    } 
+}
+@media screen and (max-width:400px) {
+    .heading{
+        font-size: 1.5rem;
+
+    }   
+    .tab2 table{
+        
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 20rem;
+           
+        }
+    .sectionImage1{
+        width: 250px;
+        height: 250px;
+        
+    } 
+}
